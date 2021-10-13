@@ -1,0 +1,9 @@
+.Info {
+  overflow: scroll;
+  position: relative;
+  padding: 10px;
+  padding-left: 20px;
+  height: 300px;
+  width: 460px;
+  font-size: 14px;
+}

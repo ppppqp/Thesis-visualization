@@ -1,0 +1,13 @@
+datalist {
+  font-size: 10px;
+  /* background-color: pink; */
+}
+.inputGroup {
+  display: flex;
+}
+#exampleDataList {
+  flex: 3;
+}
+.btn-primary {
+  flex: 1;
+}

@@ -1,0 +1,50 @@
+.relationView {
+  display: flex;
+}
+.section1 {
+  flex: 3;
+}
+.section2 {
+  flex: 6;
+}
+/* //added */
+.section1 .mainbox {
+  height: 1000px;
+}
+.section1 .column {
+  height: 1000px;
+}
+.section1 .panel {
+  height: 1000px;
+}
+/* add end */
+.section2 .mainbox {
+  height: 1000px;
+}
+.section2 .mainbox .column .panel {
+  height: 1000px;
+}
+.mainbox .column {
+  flex: 3;
+  margin: 5px;
+  margin-top: 0px;
+}
+.relationView .mainbox .column:nth-child(2) {
+  flex: 3;
+}
+.relationView .mainbox:nth-child(2) {
+  margin-top: 10px;
+  height: 580px;
+}
+.clearButton {
+  position: absolute;
+  left: 0;
+  height: 30px;
+  line-height: 15px;
+}
+.switchButton {
+  position: absolute;
+  z-index: 20;
+  height: 30px;
+  line-height: 15px;
+}
